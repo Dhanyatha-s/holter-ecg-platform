@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+build/
+dist/
+.npm/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ECG/data artifacts
+*.h5
+*.hdf5
+*.edf
+*.ecg
+/data/
+/storage/
+/artifacts/
+
+# Test/coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
