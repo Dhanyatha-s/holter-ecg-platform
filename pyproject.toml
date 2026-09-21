@@ -1,0 +1,14 @@
+[project]
+name = "holter-ecg-platform"
+version = "0.1.0"
+description = "On-premises Holter ECG analysis platform"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "alembic",
+    "fastapi",
+    "psycopg[binary]",
+    "pydantic-settings",
+    "sqlalchemy",
+    "uvicorn[standard]",
+]
