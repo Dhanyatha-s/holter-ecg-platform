@@ -22,7 +22,7 @@ engine = create_engine(
     pool_pre_ping = True, #this is to check if the connection is alive before using it
 )
 
-sessionLocal = sessionmaker(
+SessionLocal = sessionmaker(
     bind = engine,
     autoflush = False, #this is to prevent the session from automatically flushing changes to the database
     autocommit = False, #this is to prevent the session from automatically committing changes to the database
